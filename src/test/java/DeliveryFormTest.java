@@ -20,7 +20,7 @@ public class DeliveryFormTest {
         //SelenideElement form = $("[data-test-id=delivery-form]");
         $("[data-test-id=city] input").setValue("Санкт-Петербург");
         $("[data-test-id=date] input").setValue("15.05.2023");
-        $("[data-test-id=name] input").setValue("Петров Иван");
+        $("[data-test-id=name] input").setValue("Петров Петр");
         $("[data-test-id=phone] input").setValue("+79041234567");
         $("[data-test-id=agreement]").click();
         $(byText("Забронировать")).click();
