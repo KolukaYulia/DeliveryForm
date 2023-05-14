@@ -43,7 +43,9 @@ public class DeliveryFormTest {
                 .shouldHave(Condition.text("Встреча успешно забронирована на " + planningDate), Duration.ofSeconds(15))
                 .shouldBe(Condition.visible);
 
+
     }
+
         
 
 
